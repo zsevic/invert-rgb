@@ -20,6 +20,8 @@
 const { invertRgb } = require('invert-rgb')
 let element = document.getElementById('#test') 
 invertRgb(element, 'border-color') /* red -> rgb(255, 0, 0) -> rgb(0, 255, 255) */ 
+invertRgb(element, 'background-color') /* rgb(23, 128, 255) -> rgb(232, 127, 0) */ 
+invertRgb(element, 'color') /* #abc -> rgb(170, 187, 204) -> rgb(85, 68, 51) */ 
 ```
 
 
