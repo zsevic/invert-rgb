@@ -1,12 +1,8 @@
 {
   "name": "invert-rgb",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "inverts color of the given DOM element",
   "main": "lib/index.js",
-  "directories": {
-    "example": "example",
-    "lib": "lib"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -16,6 +16,7 @@
 
 ### Usage 
 ```js
+const { invertRgb } = require('invert-rgb')
 let element = document.getElementById('#test') 
 invertRgb(element, 'border-color') /* red -> rgb(255, 0, 0) -> rgb(0, 255, 255) */ 
 ```
