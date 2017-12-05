@@ -1,0 +1,15 @@
+body{
+    padding-top:20px;
+}
+
+#test {
+    color: #abc;
+    background: rgb(23, 128, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 2em;
+    width: 50%;
+}
