@@ -1,3 +1,5 @@
+const { invertRgb } = require('../lib')
+
 let element = document.getElementById('test')
 
 document.getElementById('invertColor').addEventListener('click', e => {

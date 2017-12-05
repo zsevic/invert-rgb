@@ -2,10 +2,6 @@
 > inverts color of the given DOM element
 
 
-### Installation
-    npm install invert-rgb
-
-
 ##### supported color formats
 * Hexadecimal `#f0f, #ff00ff`
 * RGB `rgb(255, 255, 255)`
@@ -13,6 +9,11 @@
 * HSL `hsl(120, 100%, 50%) /* green */`
 * HSLA `hsla(120, 100%, 50%, 0.3) /* green with opacity */`
 * Predefined/Cross-browser color names `red, green, blue`
+
+
+### Installation
+    npm install invert-rgb
+
 
 ### Usage 
 ```js
@@ -35,3 +36,8 @@ after
 
 
 ![after](./images/after.png)
+
+
+### Setup for demo
+    npm install
+    webpack

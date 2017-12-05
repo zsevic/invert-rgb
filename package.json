@@ -1,6 +1,6 @@
 {
   "name": "invert-rgb",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "inverts color of the given DOM element",
   "main": "lib/index.js",
   "scripts": {
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/zsevic/invert-rgb/issues"
   },
-  "homepage": "https://github.com/zsevic/invert-rgb#readme"
+  "homepage": "https://github.com/zsevic/invert-rgb#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "webpack": "^3.10.0"
+  }
 }
