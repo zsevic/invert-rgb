@@ -4,7 +4,7 @@
   "description": "inverts color of the given DOM element",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.1",
+    "jest": "^22.1.4",
     "webpack": "^3.10.0"
   }
 }
