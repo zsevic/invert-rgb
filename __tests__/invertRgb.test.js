@@ -82,4 +82,13 @@ describe("invert background color of given element", () => {
 
     expect(backgroundColor).toEqual("rgba(0, 255, 0, 0.5)");
   });
+  it("should invert RGBA format", () => {
+    document.body.innerHTML = `<a id="invertBackgroundColor" style="background-color:rgba(255, 0, 255, 0.5);">invert background color</a>`;
+    let element = document.getElementById("invertBackgroundColor");
+
+    invertRgb(element, "background-color");
+    let backgroundColor = getStyle(element, "background-color");
+
+    expect(backgroundColor).toEqual("rgba(0, 255, 0, 0.5)");
+  });
 });
